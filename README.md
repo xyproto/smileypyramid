@@ -2,9 +2,23 @@
 
 Output a pyramid of smiley faces.
 
-Screenshot:
-
-![smiley faces](/img/screenshot1.png)
+```
+$ ./smileypyramid 15
+)
+:)
+:-)
+:):)
+:-):)
+:-):-)
+:-):):)
+:):):):)
+:-):-):-)
+:-):):-):)
+:-):):):):)
+:):):):):):)
+:-):-):):-):)
+:):):):):):):)
+```
 
 ## Installation
 
