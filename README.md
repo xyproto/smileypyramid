@@ -47,3 +47,9 @@ Install with:
   - Debian package: `libdocopt-dev`
 
 If `docopt` is not installed in `/usr/include` and `/usr/bin` you might need to either edit the `Makefile` or edit `smileypyramid.pro` and then generate a new makefile with `qmake`.
+
+## General info
+
+* Version: 1.0
+* License: GPL2
+* Author: Alexander F Rødseth
