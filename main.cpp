@@ -1,9 +1,7 @@
 #include <cstddef>
 #include <iostream>
-#include <optional>
 #include <sstream>
 #include <string>
-#include <tuple>
 
 #include "docopt.h"
 
