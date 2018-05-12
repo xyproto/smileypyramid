@@ -3,7 +3,7 @@
 Output a pyramid of smiley faces.
 
 ```
-$ ./smileypyramid 15
+$ ./smileypyramid 18
 )
 :)
 :-)
@@ -18,6 +18,10 @@ $ ./smileypyramid 15
 :):):):):):)
 :-):-):):-):)
 :):):):):):):)
+:-):):-):):-):)
+:):):):):):):):)
+:-):):):):):):):)
+:-):-):-):-):-):-)
 ```
 
 ## Installation
@@ -43,6 +47,7 @@ Install with:
 
 * docopt
   - Project page: https://github.com/docopt/docopt.cpp
+  - Arch Linux package: `docopt`
   - AUR package: `docopt.cpp-git`
   - Debian package: `libdocopt-dev`
 
