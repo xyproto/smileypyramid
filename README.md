@@ -26,7 +26,7 @@ $ ./smileypyramid 18
 
 ## Installation
 
-Build with [`sakemake`](https://github.com/xyproto/sakemake), `qmake` or `make`.
+Build with [`sakemake`](https://github.com/xyproto/sakemake) or `qmake`.
 
 ### Linux
 
@@ -36,7 +36,7 @@ Install with:
 
 ### BSD or macOS
 
-Build with [`sakemake`](https://github.com/xyproto/sakemake), `qmake`, `make` or `gmake`.
+Build with [`sakemake`](https://github.com/xyproto/sakemake) or `qmake`.
 
 Install with:
 
