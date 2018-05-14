@@ -14,7 +14,7 @@ CC            = gcc
 CXX           = g++
 DEFINES       = 
 CFLAGS        = -pipe -O2 -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt -Wall -W -fPIC $(DEFINES)
-CXXFLAGS      = -pipe -std=c++17 -ldocopt -O2 -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt -Wall -W -fPIC $(DEFINES)
+CXXFLAGS      = -pipe -std=c++17 -O2 -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong -fno-plt -Wall -W -fPIC $(DEFINES)
 INCPATH       = -I. -isystem /usr/include/docopt -I/usr/lib/qt/mkspecs/linux-g++
 QMAKE         = /usr/bin/qmake
 DEL_FILE      = rm -f
@@ -38,7 +38,7 @@ DISTNAME      = smileypyramid1.0.0
 DISTDIR = /home/afr/clones/smileypyramid/.tmp/smileypyramid1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1 -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now
-LIBS          = $(SUBLIBS) /usr/lib/libdocopt.so 
+LIBS          = $(SUBLIBS) -L/usr/lib -ldocopt 
 AR            = ar cqs
 RANLIB        = 
 SED           = sed
@@ -70,6 +70,7 @@ DIST          = /usr/lib/qt/mkspecs/features/spec_pre.prf \
 		/usr/lib/qt/mkspecs/modules/qt_AkonadiWidgets.pri \
 		/usr/lib/qt/mkspecs/modules/qt_AkonadiXml.pri \
 		/usr/lib/qt/mkspecs/modules/qt_Attica.pri \
+		/usr/lib/qt/mkspecs/modules/qt_Baloo.pri \
 		/usr/lib/qt/mkspecs/modules/qt_BluezQt.pri \
 		/usr/lib/qt/mkspecs/modules/qt_CalendarSupport.pri \
 		/usr/lib/qt/mkspecs/modules/qt_ContactEditor.pri \
@@ -106,6 +107,7 @@ DIST          = /usr/lib/qt/mkspecs/features/spec_pre.prf \
 		/usr/lib/qt/mkspecs/modules/qt_KDESu.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KDEWebKit.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KEmoticons.pri \
+		/usr/lib/qt/mkspecs/modules/qt_KFileMetaData.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KGantt.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KGAPIBlogger.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KGAPICalendar.pri \
@@ -392,6 +394,7 @@ Makefile: smileypyramid.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt
 		/usr/lib/qt/mkspecs/modules/qt_AkonadiWidgets.pri \
 		/usr/lib/qt/mkspecs/modules/qt_AkonadiXml.pri \
 		/usr/lib/qt/mkspecs/modules/qt_Attica.pri \
+		/usr/lib/qt/mkspecs/modules/qt_Baloo.pri \
 		/usr/lib/qt/mkspecs/modules/qt_BluezQt.pri \
 		/usr/lib/qt/mkspecs/modules/qt_CalendarSupport.pri \
 		/usr/lib/qt/mkspecs/modules/qt_ContactEditor.pri \
@@ -428,6 +431,7 @@ Makefile: smileypyramid.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt
 		/usr/lib/qt/mkspecs/modules/qt_KDESu.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KDEWebKit.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KEmoticons.pri \
+		/usr/lib/qt/mkspecs/modules/qt_KFileMetaData.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KGantt.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KGAPIBlogger.pri \
 		/usr/lib/qt/mkspecs/modules/qt_KGAPICalendar.pri \
@@ -704,6 +708,7 @@ Makefile: smileypyramid.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt
 /usr/lib/qt/mkspecs/modules/qt_AkonadiWidgets.pri:
 /usr/lib/qt/mkspecs/modules/qt_AkonadiXml.pri:
 /usr/lib/qt/mkspecs/modules/qt_Attica.pri:
+/usr/lib/qt/mkspecs/modules/qt_Baloo.pri:
 /usr/lib/qt/mkspecs/modules/qt_BluezQt.pri:
 /usr/lib/qt/mkspecs/modules/qt_CalendarSupport.pri:
 /usr/lib/qt/mkspecs/modules/qt_ContactEditor.pri:
@@ -740,6 +745,7 @@ Makefile: smileypyramid.pro /usr/lib/qt/mkspecs/linux-g++/qmake.conf /usr/lib/qt
 /usr/lib/qt/mkspecs/modules/qt_KDESu.pri:
 /usr/lib/qt/mkspecs/modules/qt_KDEWebKit.pri:
 /usr/lib/qt/mkspecs/modules/qt_KEmoticons.pri:
+/usr/lib/qt/mkspecs/modules/qt_KFileMetaData.pri:
 /usr/lib/qt/mkspecs/modules/qt_KGantt.pri:
 /usr/lib/qt/mkspecs/modules/qt_KGAPIBlogger.pri:
 /usr/lib/qt/mkspecs/modules/qt_KGAPICalendar.pri:
