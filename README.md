@@ -46,10 +46,10 @@ Install with:
 ## Requirements
 
 * docopt
-  - Project page: https://github.com/docopt/docopt.cpp
-  - Arch Linux package: `docopt`
-  - AUR package: `docopt.cpp-git`
-  - Debian package: `libdocopt-dev`
+  - Project page: [docopt.cpp](https://github.com/docopt/docopt.cpp)
+  - Arch Linux package: [`docopt`](https://www.archlinux.org/packages/community/x86_64/docopt/)
+  - AUR package: [`docopt.cpp-git`](https://aur.archlinux.org/packages/docopt.cpp-git/)
+  - Debian package: [`libdocopt-dev`](https://packages.debian.org/search?keywords=libdocopt-dev)
 
 If `docopt` is not installed in `/usr/include` and `/usr/bin` you might need to either edit the `Makefile` or edit `smileypyramid.pro` and then generate a new makefile with `qmake`.
 
