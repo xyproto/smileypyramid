@@ -73,15 +73,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust"
-version = "1.0.0"
-dependencies = [
- "docopt 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde 1.0.57 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde_derive 1.0.57 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "serde"
 version = "1.0.57"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -94,6 +85,15 @@ dependencies = [
  "proc-macro2 0.3.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "quote 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "syn 0.13.10 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "smileypyramid"
+version = "1.0.0"
+dependencies = [
+ "docopt 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.57 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_derive 1.0.57 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

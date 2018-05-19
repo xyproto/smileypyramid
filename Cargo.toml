@@ -1,5 +1,5 @@
 [package]
-name = "rust"
+name = "smileypyramid"
 version = "1.0.0"
 authors = ["Alexander F Rødseth <rodseth@gmail.com>"]
 exclude = [
