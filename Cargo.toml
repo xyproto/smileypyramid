@@ -10,6 +10,7 @@ exclude = [
 description = "Create pyramids built out of smiley faces"
 homepage = "https://github.com/xyproto/smileypyramid"
 keywords = ["asciiart", "console", "terminal", "fun"]
+license-file = "LICENSE"
 
 [dependencies]
 docopt = "1"
