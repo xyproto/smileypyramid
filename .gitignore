@@ -39,4 +39,4 @@
 smileypyramid
 
 # rust
-rust/target
+target/

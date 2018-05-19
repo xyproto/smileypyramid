@@ -24,6 +24,12 @@ $ ./smileypyramid 18
 :-):-):-):-):-):-)
 ```
 
+# Rust version
+
+Build and install with `cargo`.
+
+# C++ version
+
 ## Installation
 
 Build with [`sakemake`](https://github.com/xyproto/sakemake) or `qmake`.

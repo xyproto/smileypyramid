@@ -1,8 +1,10 @@
 #[macro_use]
 extern crate serde_derive;
 extern crate docopt;
+extern crate smileypyramid;
 
 use docopt::Docopt;
+use smileypyramid::smiley_line;
 
 const VERSION_STRING: &'static str = "Smiley Pyramid 1.0";
 const USAGE: &'static str = "
@@ -22,36 +24,6 @@ const DEFAULT_WIDTH: u64 = 10;
 struct Args {
     arg_width: Option<u64>,
     flag_version: bool,
-}
-
-fn smiley_line(length: u64) -> String {
-    let mut sline: String = "".to_owned();
-    if length == 1 {
-        return ")".to_owned();
-    }
-    let mut l = length;
-    while l > 1 {
-        if l % 9 == 0 {
-            sline += ":-):-):-)";
-            l -= 9;
-        } else if l % 5 == 0 {
-            sline += ":-):)";
-            l -= 5;
-        } else if l % 4 == 0 {
-            sline += ":):)";
-            l -= 4;
-        } else if l % 3 == 0 {
-            sline += ":-)";
-            l -= 3;
-        } else if l % 2 == 0 {
-            sline += ":)";
-            l -= 2;
-        } else if l % 2 != 0 {
-            sline += ":-)";
-            l -= 3;
-        }
-    }
-    sline
 }
 
 fn main() {
