@@ -1,12 +1,15 @@
 [package]
 name = "smileypyramid"
 version = "1.0.0"
-authors = ["Alexander F Rødseth <rodseth@gmail.com>"]
+authors = ["Alexander F Rødseth <xyproto@archlinux.org>"]
 exclude = [
     "main.cpp",
     "*.pro*",
     "Makefile",
 ]
+description = "Create pyramids built out of smiley faces"
+homepage = "https://github.com/xyproto/smileypyramid"
+keywords = ["asciiart", "console", "terminal", "fun"]
 
 [dependencies]
 docopt = "1"
