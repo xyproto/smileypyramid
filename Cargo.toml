@@ -11,7 +11,7 @@ description = "Create pyramids built out of smiley faces"
 homepage = "https://github.com/xyproto/smileypyramid"
 keywords = ["asciiart", "console", "terminal", "fun"]
 license-file = "LICENSE"
-license = "GPL3"
+license = "GPL-3.0"
 
 [dependencies]
 docopt = "1"
