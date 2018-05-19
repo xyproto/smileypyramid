@@ -37,3 +37,6 @@
 *.out
 *.app
 smileypyramid
+
+# rust
+rust/target
