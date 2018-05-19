@@ -12,7 +12,7 @@ using width_t = uint64_t;
 
 static const auto DEFAULT_WIDTH = width_t{ 10 };
 
-static const auto versionString = "Smiley Pyramid 1.0"s;
+static const auto versionString = "Smiley Pyramid 1.0.1"s;
 static const auto USAGE = versionString + R"(
 
     Usage:
