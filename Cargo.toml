@@ -1,7 +1,12 @@
 [package]
 name = "rust"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Alexander F Rødseth <rodseth@gmail.com>"]
+exclude = [
+    "main.cpp",
+    "*.pro*",
+    "Makefile",
+]
 
 [dependencies]
 docopt = "1"

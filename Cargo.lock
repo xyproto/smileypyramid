@@ -74,7 +74,7 @@ dependencies = [
 
 [[package]]
 name = "rust"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "docopt 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.57 (registry+https://github.com/rust-lang/crates.io-index)",
