@@ -6,7 +6,7 @@ extern crate smileypyramid;
 use docopt::Docopt;
 use smileypyramid::smiley_line;
 
-const VERSION_STRING: &'static str = "Smiley Pyramid 1.0.0";
+const VERSION_STRING: &'static str = "Smiley Pyramid 1.0.1";
 const USAGE: &'static str = "
   Usage:
     smileypyramid <width>
