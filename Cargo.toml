@@ -1,7 +1,7 @@
 [package]
 name = "smileypyramid"
 version = "1.0.1"
-authors = ["Alexander F Rødseth <xyproto@archlinux.org>"]
+authors = ["Alexander F. Rødseth <xyproto@archlinux.org>"]
 exclude = [
     "main.cpp",
     "*.pro*",
@@ -10,7 +10,6 @@ exclude = [
 description = "Create pyramids built out of smiley faces"
 homepage = "https://github.com/xyproto/smileypyramid"
 keywords = ["asciiart", "console", "terminal", "fun"]
-license-file = "LICENSE"
 license = "GPL-3.0"
 
 [dependencies]
