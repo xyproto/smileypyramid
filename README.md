@@ -32,7 +32,7 @@ Build and install with `cargo`.
 
 ## Installation
 
-Build with [`sakemake`](https://github.com/xyproto/sakemake) or `qmake`.
+Build with [`cxx`](https://github.com/xyproto/cxx) or `qmake`.
 
 ### Linux
 
@@ -42,7 +42,7 @@ Install with:
 
 ### BSD or macOS
 
-Build with [`sakemake`](https://github.com/xyproto/sakemake) or `qmake`.
+Build with [`cxx`](https://github.com/xyproto/cxx) or `qmake`.
 
 Install with:
 
