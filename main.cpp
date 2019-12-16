@@ -10,7 +10,7 @@ using namespace std::string_literals;
 
 using width_t = uint64_t;
 
-static const auto DEFAULT_WIDTH = width_t{ 10 };
+static const auto DEFAULT_WIDTH = width_t { 10 };
 
 static const auto versionString = "Smiley Pyramid 1.0.1"s;
 static const auto USAGE = versionString + R"(
@@ -30,7 +30,7 @@ auto smiley_line(const width_t length) -> const std::string
     if (length == 1) {
         return ")"s;
     }
-    auto ss = std::stringstream{};
+    auto ss = std::stringstream {};
     auto l = length;
     while (l > 1) {
         if (l % 9 == 0) {
@@ -83,7 +83,7 @@ auto main(int argc, char** argv) -> int
         }
     }
 
-    for (auto i = width_t{ 1 }; i <= width; i++) {
+    for (auto i = width_t { 1 }; i <= width; i++) {
         cout << smiley_line(i) << endl;
     }
 
