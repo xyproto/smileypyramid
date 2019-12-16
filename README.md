@@ -32,7 +32,7 @@ Build and install with `cargo`.
 
 ## Installation
 
-Build with [`cxx`](https://github.com/xyproto/cxx) or `qmake`.
+Build with [`cxx`](https://github.com/xyproto/cxx).
 
 ### Linux
 
@@ -42,7 +42,7 @@ Install with:
 
 ### BSD or macOS
 
-Build with [`cxx`](https://github.com/xyproto/cxx) or `qmake`.
+Build with [`cxx`](https://github.com/xyproto/cxx).
 
 Install with:
 
@@ -57,7 +57,7 @@ Install with:
   - AUR package: [`docopt.cpp-git`](https://aur.archlinux.org/packages/docopt.cpp-git/)
   - Debian package: [`libdocopt-dev`](https://packages.debian.org/search?keywords=libdocopt-dev)
 
-If `docopt` is not installed in `/usr/include` and `/usr/bin` you might need to either edit the `Makefile` or edit `smileypyramid.pro` and then generate a new makefile with `qmake`.
+If `docopt` is not installed in `/usr/include` and `/usr/bin` you might need to edit the `Makefile`.
 
 ## Benchmarking
 
@@ -67,4 +67,4 @@ From a quick, unscientific and probably misleading benchmark with `time` and a p
 
 * Version: 1.0.1
 * License: GPL2
-* Author: Alexander F Rødseth
+* Author: Alexander F. Rødseth
