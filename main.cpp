@@ -12,7 +12,7 @@ using width_t = uint64_t;
 
 static const auto DEFAULT_WIDTH = width_t { 10 };
 
-static const auto versionString = "Smiley Pyramid 1.0.1"s;
+static const auto versionString = "Smiley Pyramid 1.0.2"s;
 static const auto USAGE = versionString + R"(
 
     Usage:
@@ -42,15 +42,12 @@ auto smiley_line(const width_t length) -> const std::string
         } else if (l % 4 == 0) {
             ss << ":):)"s;
             l -= 4;
-        } else if (l % 3 == 0) {
+        } else if ((l % 3 == 0) || (l % 2 != 0)) {
             ss << ":-)"s;
             l -= 3;
-        } else if (l % 2 == 0) {
+        } else {
             ss << ":)"s;
             l -= 2;
-        } else if (l % 2 != 0) {
-            ss << ":-)";
-            l -= 3;
         }
     }
     return ss.str();
