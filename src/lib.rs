@@ -1,5 +1,7 @@
 #[cfg(test)]
 mod tests {
+	use crate::smiley_line;
+
     #[test]
     fn simple() {
         assert_eq!(smiley_line(0), "");
