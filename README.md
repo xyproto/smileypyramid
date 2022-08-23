@@ -71,4 +71,4 @@ If `docopt` is not installed in `/usr/include` and `/usr/bin` you might need to 
 
 * Version: 1.0.2
 * License: GPL2
-* Author: Alexander F. Rødseth
+* Author: Alexander F. Rødseth &lt;xyproto@archlinux.org&gt;
