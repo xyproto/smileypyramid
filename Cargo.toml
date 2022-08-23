@@ -19,8 +19,8 @@ serde_derive = "1.0"
 
 [lib]
 name = "smileypyramid"
-path = "rust/lib.rs"
+path = "src/lib.rs"
 
 [[bin]]
 name = "smileypyramid"
-path = "rust/bin.rs"
+path = "src/bin.rs"
