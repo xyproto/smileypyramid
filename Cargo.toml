@@ -1,6 +1,6 @@
 [package]
 name = "smileypyramid"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["Alexander F. Rødseth <xyproto@archlinux.org>"]
 exclude = [
     "main.cpp",
