@@ -27,15 +27,12 @@ pub fn smiley_line(length: u64) -> String {
         } else if l % 4 == 0 {
             sline += ":):)";
             l -= 4;
-        } else if l % 3 == 0 {
+        } else if (l % 3 == 0) || (l % 2 != 0) {
             sline += ":-)";
             l -= 3;
-        } else if l % 2 == 0 {
+        } else {
             sline += ":)";
             l -= 2;
-        } else if l % 2 != 0 {
-            sline += ":-)";
-            l -= 3;
         }
     }
     sline
