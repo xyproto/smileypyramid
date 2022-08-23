@@ -26,7 +26,9 @@ $ ./smileypyramid 18
 
 # Rust version
 
-Build and install with `cargo`.
+Build and run with `cargo`:
+
+    cargo run --release 18
 
 # C++ version
 
