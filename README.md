@@ -67,12 +67,8 @@ install -m755 smileypyramid /usr/local/bin/smileypyramid
 
 If `docopt` is not installed in `/usr/include` and `/usr/bin` you might need to edit the `Makefile`.
 
-## Benchmarking
-
-From a quick, unscientific and probably misleading benchmark with `time` and a pyramid of size 500, the GCC/C++17 version is around 30% faster than the Rust version of `smileypyramid`. Please try to replicate the result and create a pull request if you have additional results.
-
 ## General info
 
-* Version: 1.0.1
+* Version: 1.0.2
 * License: GPL2
 * Author: Alexander F. Rødseth
