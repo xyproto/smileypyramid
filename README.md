@@ -2,7 +2,7 @@
 
 Output a pyramid of smiley faces.
 
-```
+```sh
 $ ./smileypyramid 18
 )
 :)
@@ -28,7 +28,9 @@ $ ./smileypyramid 18
 
 Build and run with `cargo`:
 
-    cargo run --release 18
+```sh
+cargo run --release 18
+```
 
 # C++ version
 
@@ -40,7 +42,9 @@ Build with [`cxx`](https://github.com/xyproto/cxx).
 
 Install with:
 
-    install -Dm755 smileypyramid /usr/bin/smileypyramid
+```sh
+install -Dm755 smileypyramid /usr/bin/smileypyramid
+```
 
 ### BSD or macOS
 
@@ -48,8 +52,10 @@ Build with [`cxx`](https://github.com/xyproto/cxx).
 
 Install with:
 
-    install -d /usr/local/bin
-    install -m755 smileypyramid /usr/local/bin/smileypyramid
+```src
+install -d /usr/local/bin
+install -m755 smileypyramid /usr/local/bin/smileypyramid
+```
 
 ## Requirements
 
