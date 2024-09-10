@@ -24,6 +24,8 @@ $ ./smileypyramid 18
 :-):-):-):-):-):-)
 ```
 
+This is also an example application for argument handling using `docopt`, for both Rust and C++.
+
 # Rust version
 
 Build and run with `cargo`:
